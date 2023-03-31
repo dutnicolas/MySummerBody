@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightGrey"
+    tools:context=".HomePage">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#EB46A14A"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Food Tracker"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="20dp"
+        android:textColor="@drawable/buttontext"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/homebuttonborder"
+        />
+    <Button
+        android:id="@+id/button_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipes"
+        android:textSize="20dp"
+        android:textColor="@drawable/buttontext"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/homebuttonborder"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
